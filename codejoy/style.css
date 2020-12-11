@@ -1,0 +1,234 @@
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h3,
+h5,
+h6,
+p {
+  color: rgb(90, 88, 88);
+}
+
+body {
+  background-image: url(img/pic/BG.png);
+  background-repeat: no-repeat;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-item a {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.btn {
+  border-radius: 100px;
+  box-shadow: 0 4px darkgreen;
+}
+.jumbotron {
+  height: 80vh;
+}
+
+.jumbotron .btn {
+  margin-top: 80px;
+}
+
+.rocket img {
+  position: fixed;
+  width: 90px;
+  bottom: 10px;
+  right: 0;
+}
+
+.logo .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo .row img {
+  width: 100px;
+}
+
+.logo .row #minecraft {
+  width: 200px;
+}
+.logo .row #raspberry {
+  width: 70px;
+}
+#three-column .row {
+  padding-top: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+#three-column {
+  height: 70vh;
+
+  background-color: lightcyan;
+}
+
+#three-column img {
+  width: 50px;
+}
+
+#three-column p {
+  font-size: 0.9em;
+}
+
+#one-photo {
+  padding: 30px;
+}
+
+#one-photo h1 {
+  padding-bottom: 40px;
+}
+#two-column h5 {
+  padding: 10px;
+}
+#two-column {
+  height: 60vh;
+  background-color: lightcyan;
+  padding-top: 40px;
+}
+
+#two-column .row {
+  width: 80%;
+  margin: 0 auto;
+}
+#two-column img {
+  width: 120px;
+}
+#two-column p {
+  font-size: 1.1em;
+  padding: 3px;
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+}
+#two-column .row-2 img {
+  width: 90px;
+}
+
+.ai-solution img {
+  width: 120px;
+}
+
+.ai-solution {
+  background-color: rgb(240, 247, 252);
+}
+.ai-solution p {
+  padding: 10px;
+}
+
+.ai-solution .row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#case {
+  background-color: lightcyan;
+  height: 50vh;
+}
+.case-img img {
+  width: 300px;
+  float: right;
+  padding: 3px;
+  margin-right: 50px;
+}
+
+.case-text {
+  margin-top: 50px;
+}
+
+.case-text h3 {
+  padding: 10px;
+  text-align: left;
+}
+
+.case-text p {
+  text-align: left;
+  width: 75%;
+}
+
+.case-head h1 {
+  padding: 20px;
+}
+
+.contact {
+  height: 40vh;
+}
+
+.contact h1 {
+  padding: 20px 0 30px 0;
+}
+
+.contact p {
+  padding-bottom: 10px;
+}
+
+footer .col-md-3 {
+  padding: 0;
+  text-align: left;
+}
+
+footer .col-md-4,
+footer .col-md-5 {
+  padding-top: 130px;
+  text-align: left;
+}
+
+footer {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-image: url(img/pic/footer.webp);
+  background-size: cover;
+  height: 90vh;
+}
+
+footer .row {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer .container-fluid {
+  padding-top: 100px;
+}
+
+footer h6 {
+  color: white;
+}
+
+footer p {
+  color: rgb(155, 218, 238);
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 50px;
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}

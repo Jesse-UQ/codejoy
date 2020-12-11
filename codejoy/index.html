@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codejoy</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+      integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/logo/logoBlueNoSlogan.png"
+            alt="logo"
+            style="width: 220px"
+        /></a>
+        <button
+          id="button"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">主页</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">幼儿园</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">中小学</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">机构</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">AI 创造营</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-success">登陆学习系统</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- scrollUp -->
+    <div class="rocket">
+      <img src="img/icon/rocket.png" alt="rocket" id="rocket" />
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-transparent">
+      <div class="container">
+        <h1 class="display-5">人工智能教育，可以很简单有趣</h1>
+        <p class="lead">用有趣的方式拥抱科技，培养AI时代的创造者</p>
+        <a href="#" class="btn btn-success btn-lg" role="button">申请体验</a>
+      </div>
+    </div>
+    <!-- Logo -->
+    <div class="container-fluid padding logo">
+      <div class="row">
+        <img src="img/homepage/logo/googleEdu.png" alt="" />
+        <img src="img/homepage/logo/mit.png" alt="" />
+        <img src="img/homepage/logo/smg.png" alt="" />
+        <img src="img/homepage/logo/minecraft.png" alt="" id="minecraft" />
+        <img src="img/homepage/logo/raspberry.png" alt="" id="raspberry" />
+      </div>
+    </div>
+    <!-- Three Column Section -->
+    <div class="container-fluid padding" id="three-column">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>专业K-12人工智能编程教育解决方案</h1>
+        </div>
+      </div>
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon1.png"
+            alt="icon-1"
+            style="float: left"
+          />
+          <h6>AI课程教材</h6>
+          <p class="lead">一套系统化的青少儿人工智能教材</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon2.png"
+            alt="icon-2"
+            style="float: left"
+          />
+          <h6>AI创作工具</h6>
+          <p class="lead">从图形化到代码的AI创意编程工具</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon5.png"
+            alt="icon-5"
+            style="float: left"
+          />
+          <h6>智能教具</h6>
+          <p class="lead">软硬件结合，连接万物</p>
+        </div>
+      </div>
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon3.png"
+            alt="icon-3"
+            style="float: left"
+          />
+          <h6>师资培训</h6>
+          <p class="lead">线上 + 线下双渠道输出的专业化培训</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon4.png"
+            alt="icon-4"
+            style="float: left"
+          />
+          <h6>赛事服务</h6>
+          <p class="lead">人工智能编程竞赛解决方案</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img
+            src="img/icon/homepage_icon6.png"
+            alt="icon-6"
+            style="float: left"
+          />
+          <h6>魔法空间</h6>
+          <p class="lead">一个可编程的AI创作实验室，放飞想象</p>
+        </div>
+      </div>
+    </div>
+    <!-- One Photo Section -->
+    <div class="container-fluid padding" id="one-photo">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm12 col-md-12 col-lg-12">
+          <h1>4-18岁全学段课程体系</h1>
+          <img src="img/pic/homepage_table.png" alt="table" />
+        </div>
+      </div>
+    </div>
+    <!-- Two Column Section -->
+    <div class="container-fluid padding" id="two-column">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 row-1">
+          <img src="img/icon/homepage_icon7.png" alt="icon7" />
+          <h5>AI 赋能，强大的技术支撑</h5>
+          <p class="lead">
+            在提供强大的 AI
+            创作工具的基础上，可帮学校接入教育者常用的树莓派、micro:bit、Arduino等硬件，也兼容
+            Python 等主流编程语言，升级成本远低于传统实验室方案
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 row-2">
+          <img src="img/icon/homepage_icon8.png" alt="icon8" />
+          <h5>学科融合，碰撞出无限可能</h5>
+          <p class="lead">
+            人工智能课程体系结合数学、音乐、美术、科学、语文、英语等 7
+            大类学科知识，同时涉及航空航天、物理机械、生物化学等多个领域的知识，帮助孩子学以致用
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- AI Solution Section -->
+    <div class="container-fluid padding ai-solution">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>领先的 AI 教育解决方案</h1>
+        </div>
+      </div>
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <img src="img/icon/homepage_icon9.png" alt="icon9" />
+          <p class="lead">幼儿园</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <img src="img/icon/homepage_icon11.png" alt="icon11" />
+          <p class="lead">中小学</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <img src="img/icon/homepage_icon10.png" alt="icon11" />
+          <p class="lead">教育机构</p>
+        </div>
+      </div>
+    </div>
+    <!-- School Case Section -->
+    <div class="container-fluid">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 case-head">
+          <h1>学校案例</h1>
+        </div>
+      </div>
+      <div class="row text-center padding" id="case">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 case-img">
+          <img src="img/pic/homepage_photo.png" alt="" />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 case-text">
+          <h3>上海 Apple Montessori 蒙氏学园</h3>
+          <p class="lead">
+            Apple Montessori
+            以玛丽亚·蒙台梭利博士的蒙氏教育法为基础，注重让孩子完全沉浸在激发求知欲的环境中。2020
+            年，Apple Montessori 在开设 “幼儿 AI 人工智能启蒙” 特色课程，培养 AI
+            时代的必备思维。
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="container-fluid contact">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>联系我们</h1>
+          <p>
+            想了解更多教育解决方案的信息？或是定制一份适合您需求的解决方案？请直接联系我们
+          </p>
+          <a href="#" class="btn btn-success btn-lg" role="button">马上联系</a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <img
+              src="img/logo/logoWhiteNoSlogan.png"
+              alt=""
+              style="height: 130px"
+            />
+            <h6>教育解决方案</h6>
+            <p>幼儿园人工智能启蒙</p>
+            <p>中小学人工智能编程教育</p>
+            <p>机构人工智能编程教育</p>
+            <p>教师资源包</p>
+          </div>
+          <div class="col-md-4">
+            <h6>产品 & 服务</h6>
+            <p>人工智能课程</p>
+            <p>Codejoy AI 学习平台</p>
+            <p>师资培训 & 认证</p>
+          </div>
+          <div class="col-md-5">
+            <h6>关于</h6>
+            <p>联系我们</p>
+            <p>团队</p>
+            <p>上海市浦东新区浦东软件园（三林园）1 号楼 3 楼</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &#169 2020 酷爱教育科技（上海）有限公司 沪 ICP 备 20020813 号  </p>
+      </div>
+    </footer>
+    <script>
+      var timer = null;
+      var rocket = document.querySelector("#rocket");
+      rocket.onclick = function () {
+        cancelAnimationFrame(timer);
+        timer = requestAnimationFrame(function fn() {
+          var oTop =
+            document.body.scrollTop || document.documentElement.scrollTop;
+          if (oTop > 0) {
+            document.body.scrollTop = document.documentElement.scrollTop =
+              oTop - 50;
+            timer = requestAnimationFrame(fn);
+          } else {
+            cancelAnimationFrame(timer);
+          }
+        });
+      };
+    </script>
+  </body>
+</html>
